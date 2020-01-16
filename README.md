@@ -21,3 +21,4 @@ import pandas as pd
 
 df = pd.read_table('example_data/sub-777_ses-1_task-SORPF_run-1.tsv', sep='\s+')
 df.to_csv('example_data/sub-777_ses-1_task-SORPF_run-1.tsv', sep='\t', index=False)
+```
