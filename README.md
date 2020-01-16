@@ -12,3 +12,4 @@ Otherwise, make sure it's off.
 In BIDS events files, the first column should be "onset" (in seconds).
 However, E-Prime has an odd behavior where it writes out numeric values with a leading space, so instead we write out a string-based variable as the first column.
 Thus, events files written out by this task need to be corrected (i.e., columns need to be reordered to follow BIDS convention) before they will pass the BIDS validator.
+3. The BIDS events files are also not quite tab-delimited, so you will need to convert them. Pandas can do this pretty easily.
