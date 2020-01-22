@@ -1,0 +1,20 @@
+{
+    "response": {
+        "Description": "The button pressed by the participant.",
+        "Levels": {
+            "1": "Image is calm",
+            "2": "Image is somewhat calm",
+            "3": "Image is somewhat intense",
+            "4": "Image is intense"
+        },
+        "LongName": "Participant response"
+    },
+    "valence": {
+        "Description": "Emotional valence of the image.",
+        "Levels": {
+            "Negative": "Image is negative.",
+            "Neutral": "Image is neutral."
+        },
+        "LongName": "Image valence"
+    }
+}
