@@ -23,7 +23,7 @@ events_description = {
 
 bold_description = {
     'CogAtlasID': '',
-    'TaskName': 'Emotion Intensity Recognition Test'
+    'TaskName': 'Emotion Induction and Regulation Test'
 }
 
 with open('task-EIRT_events.json', 'w') as fo:
