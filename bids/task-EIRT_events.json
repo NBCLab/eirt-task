@@ -2,10 +2,10 @@
     "response": {
         "Description": "The button pressed by the participant.",
         "Levels": {
-            "1": "Image is calm",
-            "2": "Image is somewhat calm",
-            "3": "Image is somewhat intense",
-            "4": "Image is intense"
+            "1": "Image is negative",
+            "2": "Image is somewhat negative",
+            "3": "Image is somewhat positive",
+            "4": "Image is positive"
         },
         "LongName": "Participant response"
     },
